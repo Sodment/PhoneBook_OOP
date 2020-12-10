@@ -1,0 +1,20 @@
+#pragma once
+// Precompiled headers
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <vector>
+#include <fstream>
+#include <cstddef>
+#include <iomanip>
+#include <boost/archive/binary_oarchive.hpp>
+#include <boost/archive/binary_iarchive.hpp>
+#include <boost/serialization/split_member.hpp>
+#include <boost/serialization/vector.hpp>
+#include <boost/serialization/base_object.hpp>
+#include <boost/serialization/utility.hpp>
+#include <boost/serialization/assume_abstract.hpp>
+#include <boost/archive/impl/basic_text_oarchive.ipp>
+#include <boost/archive/impl/text_oarchive_impl.ipp>
+#include <boost/archive/impl/basic_text_iarchive.ipp>
+#include <boost/archive/impl/text_iarchive_impl.ipp>
